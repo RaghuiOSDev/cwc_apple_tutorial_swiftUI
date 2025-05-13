@@ -33,12 +33,9 @@ struct CWCTask3_SlotsApp: View {
                 Spacer()
                 HStack {
                     Spacer()
-                    Image(symbols[num[0]]).resizable().aspectRatio(1, contentMode: .fit)
-                        .background(Color.white.opacity(0.5)).cornerRadius(20)
-                    Image(symbols[num[1]]).resizable().aspectRatio(1, contentMode: .fit)
-                        .background(Color.white.opacity(0.5)).cornerRadius(20)
-                    Image(symbols[num[2]]).resizable().aspectRatio(1, contentMode: .fit)
-                        .background(Color.white.opacity(0.5)).cornerRadius(20)
+                    CardView()
+                    CardView()
+                    CardView()
                     Spacer()
                 }
                 Spacer()
